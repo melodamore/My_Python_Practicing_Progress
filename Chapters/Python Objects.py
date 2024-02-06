@@ -100,6 +100,6 @@
     10. Ask the user to enter 4 points and arrange them in order of their distances from the origin.
         - For solutions see solution10.py
 
-    11.
+    11. In question 10, arrange the above points in order of their x coordinates.
         - For solutions see solution11.py
 """
