@@ -66,11 +66,11 @@
     'f(x) = x^2 + 5X + 3' else calculate it with 'f(X) = x + 3'
         - For solutions see solution17.py
 
---> Illustration #6 Ask the user to enter the coefficients of a1x + b1y + c1 = 0 and a2x + b2y + c2 = 0 and find out
+--> Illustration #7 Ask the user to enter the coefficients of a1x + b1y + c1 = 0 and a2x + b2y + c2 = 0 and find out
     whether the two lines depicted by the above equations are parallel or not.
         - For solutions see solution18.py
 
---> Illustration #7 Ask the user to enter the values of a1, a2, b1, b2, c1, and c2 and find whether the lines are
+--> Illustration #8 Ask the user to enter the values of a1, a2, b1, b2, c1, and c2 and find whether the lines are
     parallel, or if they overlap or intersect.
         - For solutions see solution19.py
 
