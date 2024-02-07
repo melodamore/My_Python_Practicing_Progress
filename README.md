@@ -4,6 +4,54 @@
 
 ## C-1 Python Objects
 
+### Basic Data Types
+
+- ### Numbers
+        - Integers
+            - Don't have any fractional parts
+
+        - Floats
+            - Have fractional parts
+
+        - Complexes
+            - Have real and imaginary parts
+  - ### Operators Supported in Numbers
+        - Addition '+'
+        - Subtraction  '-'
+        - Multiplication '*'
+        - Power '**'  # for exponentiations
+        - Modulo '%'  # finds the remained if the 1st number is greater, otherwise it returns the 1st number
+  - ### Some Important Functions of 'math'
+        - Ceil
+            - The nearest integer >= the number
+            - For examples see 'example1.py'
+  
+        - Copy sign
+            - The sign of the 2nd argument is returned
+            - For examples see 'example2.py'
+
+        - Fabs
+            - Absolute value of a number
+            - For examples see 'example3.py'
+  
+        - Factorial
+            - The continued product of a number from 1 to that value
+            - For examples see 'example4.py'
+
+        - Floor
+            - The nearest integer <= the number
+            - For examples see 'example5.py'
+    - ### Fractions
+            - From fractions import Fraction
+            - From decimal import Decimal
+                - For examples see 'example6.py'
+
+- ### Sequences 
+  - ### Strings
+  - ### Lists
+  - ### Tuples
+
+### Problems
     
 ## C-2 Conditional Statements
     
