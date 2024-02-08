@@ -24,7 +24,7 @@
   - ### Some Important Functions of 'math'
         - Ceil
             - The nearest integer >= the number
-            - For examples see [example1.py](https://github.com/melodamore/Python-Basics/blob/main/Examples/example1.py)
+            - For examples see [example1](/Python-Basics/blob/main/Examples/example1.py)
   
         - Copy sign
             - The sign of the 2nd argument is returned
