@@ -2,51 +2,55 @@
 ## My Python Programming Learning Progress
 ### Notes with chapters, examples and solutions.
 
-## C-1 Python Objects
+# C-1 Python Objects
 
-### Basic Data Types
+## Basic Data Types
 
-- ### Numbers
-        - Integers
-            - Don't have any fractional parts
+## Numbers
+- **Integers**
+  - Don't have any fractional parts
 
-        - Floats
-            - Have fractional parts
+- **Floats**
+  - Have fractional parts
+- **Complexes**
+  - Have real and imaginary parts
+___  
+## Operators Supported in Numbers
+- **Addition** **`+`**
+- **Subtraction**  **`-`**
+- **Multiplication** **`*`**
+- **Power** **`**`** 
+  - for exponentiation
+- **Modulo** **`%`** 
+  - finds the remained if the 1st number is greater, otherwise it returns the 1st number
+___
+## Some Important Functions of 'math'
+### Ceil
+- The nearest integer >= the number
+- For examples see [**Example 1**](/Examples/example1.py)
 
-        - Complexes
-            - Have real and imaginary parts
-  - ### Operators Supported in Numbers
-        - Addition '+'
-        - Subtraction  '-'
-        - Multiplication '*'
-        - Power '**'  # for exponentiations
-        - Modulo '%'  # finds the remained if the 1st number is greater, otherwise it returns the 1st number
-  - ### Some Important Functions of 'math'
-        - Ceil
-            - The nearest integer >= the number
-            - For examples see [example1](/Python-Basics/blob/main/Examples/example1.py)
-  
-        - Copy sign
-            - The sign of the 2nd argument is returned
-            - For examples see 'example2.py'
+### Copy sign
+- The sign of the 2nd argument is returned
+- For examples see [**Example 2**](/Examples/example2.py)
 
-        - Fabs
-            - Absolute value of a number
-            - For examples see 'example3.py'
-  
-        - Factorial
-            - The continued product of a number from 1 to that value
-            - For examples see 'example4.py'
+### Fabs
+- Absolute value of a number
+- For examples see [**Example 3**](/Examples/example3.py)
 
-        - Floor
-            - The nearest integer <= the number
-            - For examples see 'example5.py'
-    - ### Fractions
-            - From fractions import Fraction
-            - From decimal import Decimal
-                - For examples see 'example6.py'
+### Factorial
+- The continued product of a number from 1 to that value
+- For examples see [**Example 4**](/Examples/example4.py)
 
-- ### Sequences 
+### Floor
+- The nearest integer <= the number
+- For examples see [**Example 5**](/Examples/example5.py)
+___
+## Fractions
+- From fractions import Fraction
+- From decimal import Decimal
+- For examples see [**Example 6**](/Examples/example6.py)
+___
+### Sequences 
   - ### Strings
   - ### Lists
   - ### Tuples
@@ -130,7 +134,7 @@
     - Ask the user to enter a number 'x' and if the number is greater than 2, calculate it with 'f(x) = x^2 + 5X + 3' 
       else calculate it with 'f(X) = x + 3'
         - For solutions see solution17.py
-
+[solution17.py](google.com)
 ### Illustration #7
     - Ask the user to enter the coefficients of a1x + b1y + c1 = 0 and a2x + b2y + c2 = 0 and find out whether the two 
       lines depicted by the above equations are parallel or not.
@@ -162,3 +166,31 @@
     5. If the PH is <7 then the solution is deemed acidic, else it is deemed as basic. Find if the given solution is
        acidic.
         - Fo solutions see solution24.py
+
+## C-3 Looping
+
+#### Python provides two types of loops: `for` and `while`
+  ![image.UP2ZI2.png](..%2F..%2FDownloads%2Fimage.UP2ZI2.png)
+
+### While
+- For repeating a task over and over again
+- The task is repeated until the test condition remains true
+- The body of the loop is determined by indentation
+
+### Illustration #1
+
+- Ask the user to enter a number and calculate its factorial
+- For solutions see [**Solution 25**](/Solutions/solution25.py)
+
+### Illustration #2
+
+- Ask the user to enter two numbers `a` and `b` and calculate `a` to the power of `b`
+- For solutions see [**Solution 26**](/Solutions/solution26.py)
+
+### Illustration #3
+
+- The arithmetic progression is obtained by adding the common difference `d` to the first term `a`, successively. The 
+  ith term of the arithmetic progression is given by the following formula: `T(i) = a + (i - 1) * d`.  
+  Ask the user to enter the value of `a`, `d` and `n` (the number of terms), and find all the terms of the AP. 
+  Also, find the sum of all the terms. 
+- For solutions see [**Solution 27**](/Solutions/solution27.py)
