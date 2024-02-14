@@ -1,8 +1,17 @@
-# Python Basics
-## My Python Programming Learning Progress
-### Notes with chapters, examples and solutions.
+### [**`ⲘⲈ𝓛ⲞⲆⲀⲘⲞꞄⲈ `**](https://www.melodamore.blogspot.com)
+######  Daniel Yohannes _@melodamore_ everywhere!
+## My Python Programming Practicing Progress
+### Notes with [**_`chapters`_**](), [**_`examples`_**]() and [**`solutions`**]().
 
-# C-1 Python Objects
+###### Resources
+
+| Books                                                                  | Websites | YT Channels |
+|------------------------------------------------------------------------|----------|-------------|
+| [**`Python Basics`**]() - A self-teaching Introduction by **H.Bhasin** |          |             |
+|                                                                        |          |             |
+
+___
+# `Chapter - 1 Python Objects`
 
 ## Basic Data Types
 
