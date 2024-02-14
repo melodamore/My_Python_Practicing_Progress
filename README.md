@@ -1,4 +1,4 @@
-### [**`ⲘⲈ𝓛ⲞⲆⲀⲘⲞꞄⲈ `**](http://melodamore.blogspot.com)
+### [**`ⲘⲈ𝓛ⲞⲆⲀⲘⲞꞄⲈ `**](http://melodamore.blogspot.com){:target="_blank"}
 ######  Daniel Yohannes _@melodamore_ everywhere!
 ## My Python Programming Practicing Progress
 ### Notes with [**_`chapters`_**](), [**_`examples`_**]() and [**`solutions`**]().
