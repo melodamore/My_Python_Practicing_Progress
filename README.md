@@ -1,14 +1,12 @@
-### [**`ⲘⲈ𝓛ⲞⲆⲀⲘⲞꞄⲈ `**](http://melodamore.blogspot.com){:target="_blank"}
-######  Daniel Yohannes _@melodamore_ everywhere!
+### [**`ⲘⲈ𝓛ⲞⲆⲀⲘⲞꞄⲈ `**](http://melodamore.blogspot.com)
+######  Daniel Yohannes [_**`@melodamore`**_](https://linktr.ee/melodamore) everywhere!
 ## My Python Programming Practicing Progress
-### Notes with [**_`chapters`_**](), [**_`examples`_**]() and [**`solutions`**]().
+#### Resources
 
-###### Resources
-
-| Books                                                                  | Websites | YT Channels |
-|------------------------------------------------------------------------|----------|-------------|
-| [**`Python Basics`**]() - A self-teaching Introduction by **H.Bhasin** |          |             |
-|                                                                        |          |             |
+| Books                                                                     | Websites | YT Channels               |
+|---------------------------------------------------------------------------|----------|---------------------------|
+| 1. [**`Python Basics`**]() - A self-teaching Introduction by **H.Bhasin** |          | 1. [**`freeCodeCamp`**]() |
+|                                                                           |          |                           |
 
 ___
 # `Chapter - 1 Python Objects`
@@ -36,28 +34,28 @@ ___
 ## Some Important Functions of 'math'
 ### Ceil
 - The nearest integer >= the number
-- For examples see [**Example 1**](/Examples/example1.py)
+- For examples see [**Example 1**](/Examples/Eg_B001.1_ceil.py)
 
 ### Copy sign
 - The sign of the 2nd argument is returned
-- For examples see [**Example 2**](/Examples/example2.py)
+- For examples see [**Example 2**](/Examples/Eg_B001.2_copy sign.py)
 
 ### Fabs
 - Absolute value of a number
-- For examples see [**Example 3**](/Examples/example3.py)
+- For examples see [**Example 3**](/Examples/Eg_3_Fabs.py)
 
 ### Factorial
 - The continued product of a number from 1 to that value
-- For examples see [**Example 4**](/Examples/example4.py)
+- For examples see [**Example 4**](/Examples/Eg_4_Factorial.py)
 
 ### Floor
 - The nearest integer <= the number
-- For examples see [**Example 5**](/Examples/example5.py)
+- For examples see [**Example 5**](/Examples/Eg_5_Floor.py)
 ___
 ## Fractions
 - From fractions import Fraction
 - From decimal import Decimal
-- For examples see [**Example 6**](/Examples/example6.py)
+- For examples see [**Example 6**](/Examples/Eg_6_Fractions.py)
 ___
 ### Sequences 
   - ### Strings
