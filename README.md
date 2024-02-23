@@ -6,7 +6,7 @@
 |------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|
 | Book | `Boo1` | [**`Python Basics`**](https://terrorgum.com/tfox/books/pythonbasics_aselfteachingintroduction.pdf) **A self-teaching Introduction**                                                                          | _H.Bhasin_           |
 | Book | `B002` | [**`Beginning Python`**](https://englishonlineclub.com/pdf/Beginning%20Python%20-%20From%20Novice%20to%20Professional%20%28Third%20Edition%29%20[EnglishOnlineClub.com].pdf) **From Novice to Professional** | _Magnus Lie Hetland_ |
-| Book | `B003` | [**`Fundamentals of Python`**](https://vdoc.pub/download/fundamentals-of-python-from-first-programs-through-data-structures-41oa8209hfm0 **From First Programs Through Data Structures**                     | _Kenneth A. Lambert_ |
+| Book | `B003` | [**`Fundamentals of Python`**](https://vdoc.pub/download/fundamentals-of-python-from-first-programs-through-data-structures-41oa8209hfm0) **From First Programs Through Data Structures**                    | _Kenneth A. Lambert_ |
 | Book | `B004` | [**`Python Essential Reference`**](https://theswissbay.ch/pdf/Gentoomen%20Library/Programming/Python/Python%20Essential%20Reference%2C%20Fourth%20Edition%20%282009%29.pdf) **Developer's Library**          | _David M. Beazley_   |
 
 
