@@ -2,11 +2,11 @@
 """
 - If-else  # Executed of the 'test' condition is true otherwise not executed
            # indentation is important, as Python recognizes a block through indentation
-    - For examples see Eg_15_If-else.py
+    - For examples see Eg_B001.15_If-else.py
 
     --> Illustration #1 Ask the user to enter the marks of a student in a subject. If the marks entered are greater than
         40 then print “pass,” if they are lower print “fail.”
-          - For solutions see solution12.py
+          - For solutions see soln_B001.12_If_a_Student_Pass_or_Fail.py
 
     --> Illustration #2 Ask the user to enter a three-digit number. Call it 'num'. Find the number obtained by reversing
         the order of the digits. Find the sum of the given number and that obtained by reversing the order of the digits
@@ -26,7 +26,7 @@
             - For solutions see solution14.py
 
 - The if-elif-else ladder  # To be used when there are multiple outcomes and the outcomes decide the action
-    - For examples see Eg_16_The_if-elif-else_Ladder.py
+    - For examples see Eg_B001.16_The_if-elif-else_Ladder.py
 
 - Logical Operators
     - 'and' ('&')  # The output is 'true', when both the conditions are 'true'.
@@ -37,7 +37,7 @@
                         |   T   |     F     |     F    |
                         |   F   |     T     |     F    |
                         |___F___|_____F_____|_____F____|
-                    - For examples see Eg_17_Logical_Operators[and(&)].py
+                    - For examples see Eg_B001.17_Logical_Operators[and(&)].py
 
     - 'or' ('|')  # The output is 'true', if any of the conditions are 'true'.
                   # The truth table of 'a | b'
@@ -47,17 +47,17 @@
                         |   T   |     F     |     T    |
                         |   F   |     T     |     T    |
                         |___F___|_____F_____|_____F____|
-                  - For examples see Eg_18_Logical_Operators[or(|)].py
+                  - For examples see Eg_B001.18_Logical_Operators[or(|)].py
 
 - The Ternary Operator  # The ternary operator performs the same task as the if-else construct.
                         # The problem is that each part caters to a single statement.
-                            - For examples see Eg_19_The_Ternary_Operator.py
+                            - For examples see Eg_B001.19_The_Ternary_Operator.py
 
     --> Illustration #4 Find the greatest of the three numbers entered by the user using a ternary operator.
             - For solutions see solution15.py
 
 - The Get Construct
-    - For examples see Eg_20_The_Get_Construct.py
+    - For examples see Eg_B001.20_The_Get_Construct.py
 
 --> Illustration #5 Ask the user to enter a number and check whether its ASCII value is greater than 80.
         - For solutions see solution16.py
