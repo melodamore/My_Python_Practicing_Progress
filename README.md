@@ -2,12 +2,12 @@
 ######  Daniel Yohannes_ _**@melodamore**_ _everywhere!
 ### Learning Sources (_Books, Websites, and Videos_)
 
-| Type | Code   | Title                                                                                                                                   | Autor                |
-|------|--------|-----------------------------------------------------------------------------------------------------------------------------------------|----------------------|
-| Book | `Boo1` | [**`Python Basics`**](/Resources/Books/Python_Basics__A_Self_Teaching.pdf) **A self-teaching Introduction**                             | _H.Bhasin_           |
-| Book | `B002` | [**`Beginning Python`**](/Resources/Books/Beginning_Python_3ed_[2017].pdf) **From Novice to Professional**                              | _Magnus Lie Hetland_ |
-| Book | `B003` | [**`Fundamentals of Python`**](/Resources/Books/Lambert_K_A_Fundamentals_of_Python.pdf) **From First Programs Through Data Structures** | _Kenneth A. Lambert_ |
-| Book | `B004` | [**`Python Essential Reference`**](/Resources/Books/Python_Essential_Reference_(en).pdf) **Developer's Library**                        | _David M. Beazley_   |
+| Type | Code   | Title                                                                                                                                                                                                        | Autor                |
+|------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|
+| Book | `Boo1` | [**`Python Basics`**](https://terrorgum.com/tfox/books/pythonbasics_aselfteachingintroduction.pdf) **A self-teaching Introduction**                                                                          | _H.Bhasin_           |
+| Book | `B002` | [**`Beginning Python`**](https://englishonlineclub.com/pdf/Beginning%20Python%20-%20From%20Novice%20to%20Professional%20%28Third%20Edition%29%20[EnglishOnlineClub.com].pdf) **From Novice to Professional** | _Magnus Lie Hetland_ |
+| Book | `B003` | [**`Fundamentals of Python`**](https://vdoc.pub/download/fundamentals-of-python-from-first-programs-through-data-structures-41oa8209hfm0 **From First Programs Through Data Structures**                     | _Kenneth A. Lambert_ |
+| Book | `B004` | [**`Python Essential Reference`**](https://theswissbay.ch/pdf/Gentoomen%20Library/Programming/Python/Python%20Essential%20Reference%2C%20Fourth%20Edition%20%282009%29.pdf) **Developer's Library**          | _David M. Beazley_   |
 
 
 ___
