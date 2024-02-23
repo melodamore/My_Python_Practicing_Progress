@@ -4,42 +4,11 @@
 
 | Type | Code   | Title                                                                                                                                   | Autor                |
 |------|--------|-----------------------------------------------------------------------------------------------------------------------------------------|----------------------|
-| Book | `Boo1` | [**`Python Basics`**](/Resources/Books/Python_Basics__A_Self_Teaching.pdf) **- A self-teaching Introduction**                           | _H.Bhasin_           |
+| Book | `Boo1` | [**`Python Basics`**](/Resources/Books/Python_Basics__A_Self_Teaching.pdf) **A self-teaching Introduction**                             | _H.Bhasin_           |
 | Book | `B002` | [**`Beginning Python`**](/Resources/Books/Beginning_Python_3ed_[2017].pdf) **From Novice to Professional**                              | _Magnus Lie Hetland_ |
 | Book | `B003` | [**`Fundamentals of Python`**](/Resources/Books/Lambert_K_A_Fundamentals_of_Python.pdf) **From First Programs Through Data Structures** | _Kenneth A. Lambert_ |
 | Book | `B004` | [**`Python Essential Reference`**](/Resources/Books/Python_Essential_Reference_(en).pdf) **Developer's Library**                        | _David M. Beazley_   |
 
-
-
-## Table of Contents
-* [`Python Objects`](#python-objects)
-  * [Basic Data Types](#basic-data-types)
-  * [Numbers](#numbers)
-  * [Operators Supported in Numbers](#operators-supported-in-numbers)
-  * [Some Important Functions of `math`](#some-important-functions-of-math)
-    * [Ceil](#ceil)
-    * [Copy sign](#copy-sign)
-    * [Fabs](#fabs)
-    * [Factorial](#factorial)
-    * [Floor](#floor)
-  * [Fractions](#fractions)
-  * [Sequences](#sequences)
-    * [Strings](#strings)
-    * [Lists](#lists)
-    * [Tuples](#tuples)
-  * [Problems](#problems)
-* [`C-2 Conditional Statements`](#c-2-conditional-statements)
-  * [If-else](#if-else)
-  * [The if-elif-else ladder](#the-if-elif-else-ladder)
-  * [Logical Operators](#logical-operators)
-  * [The Ternary Operator](#the-ternary-operator)
-  * [The Get Construct](#the-get-construct)
-  * [Illustrations](#illustrations)
-  * [Problems](#problems-1)
-* [`C-3 Looping`](#c-3-looping)
-    * [Python provides two types of loops: `for` and `while`](#python-provides-two-types-of-loops-for-and-while)
-  * [While](#while)
-  * [Illustrations](#illustrations-1)
 
 ___
 ___
@@ -236,22 +205,22 @@ ___
 ___
 ## Illustrations
 - `Illustration #1` Ask the user to enter a number and calculate its factorial
-  - [**Solution**](/Solutions/solution25.py)
+  - [**Solution**](/Solutions/Sol_B001.25_Calculate_Factorial.py)
 
 
 - `Illustration #2` Ask the user to enter two numbers `a` and `b` and calculate `a` to the power of `b`
-  - [**Solution**](/Solutions/solution26.py)
+  - [**Solution**](/Solutions/Sol_B001.26_Calculate_'a'_to_The_Power_of_'b'.py)
 
 
 - `Illustration #3` The arithmetic progression is obtained by adding the common difference `d` to the first term `a`, 
   successively. The ith term of the arithmetic progression is given by the following formula: `T(i) = a + (i - 1) * d`. 
   Ask the user to enter the value of `a`, `d` and `n` (the number of terms), and find all the terms of the AP. 
   Also, find the sum of all the terms. 
-  - [**Solution**](/Solutions/solution27.py)
+  - [**Solution**](/Solutions/Sol_B001.27_Arithmetic_Progression.py)
 
 
 - `Illustration #4` The geometric progression is obtained by multiplying the common ratio `r` to the first term `a`, 
    successively. The ith term of the progression is given by the following formula. `T(i) = a × ri – 1` Ask the user to 
    enter the value of `a`, `r`, and `n`(the number of terms), and find all the terms of the GP. 
    Also, find the sum of all the terms.
-  - [**Solution**](/Solutions/solution28.py)
+  - [**Solution**](/Solutions/Sol_B001.28_Geometric_Progression.py)

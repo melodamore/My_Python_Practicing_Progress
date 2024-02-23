@@ -70,20 +70,20 @@
 
 - Problems
     1. Write a program to swap two numbers.
-        - For solutions see soln_B001.1_Swap_Two_Numbers.py
+        - For solutions see Sol_B001.1_Swap_Two_Numbers.py
 
     2. Ask the user to enter the coordinates of a point and find the distance of the point from the origin.
-        - For solutions see soln_B001.2_Distance_Between_Point_&_Origin.py
+        - For solutions see Sol_B001.2_Distance_Between_Point_&_Origin.py
 
     3. Ask the user to enter two points (x and y coordinates) and find the distance between them.
-        - For solutions see soln_B001.3_Distance_Between_2_Points.py
+        - For solutions see Sol_B001.3_Distance_Between_2_Points.py
 
     4. Ask the user to enter three points and find whether they are collinear.
-        - For solutions see soln_B001.3_If_3_Points_Are_Collinear.py
+        - For solutions see Sol_B001.3_If_3_Points_Are_Collinear.py
 
     5. In the above question, if the points are not collinear then find the type of triangle formed by them (equilateral
        , isosceles or scalene).
-        - For solutions see soln_B001.5_Find_Type_of_Triangle.py
+        - For solutions see Sol_B001.5_Find_Type_of_Triangle.py
 
     6. In the above question, check if the triangle is right-angled.
         - For solutions see soln_B001.6_If_Triangle_is_Right_Angled.py
