@@ -13,9 +13,9 @@
 | Book    | `B005` | [**Think Python**]() **- How to Think Like a Computer Scientist**                                                                                                                                            | _Allen Downey_       |
 | Website | `W001` | [**Python.org**](https://www.python.org) **- Python Documentation**                                                                                                                                          | _Python_             |
 | Website | `W002` | [**Microsoft.com**](https://learn.microsoft.com/en-us/training/browse/?terms=python) **- Introduction to Python**                                                                                            | _Microsoft_          |
-| Website | `W003` | [**Tutorials Point**](https://www.tutorialspoint.com/python/index.htm)                                                                                                                                       | __                   |
-| Website | `W004` | [**Udemy**]()                                                                                                                                                                                                |                      |
-| Website | `W005` | [**W3 Schools**](https://www.w3schools.com/python/default.asp)                                                                                                                                               |                      |
+| Website | `W003` | [**Tutorials Point**](https://www.tutorialspoint.com/python/index.htm)                                                                                                                                       | _Tutorials Point_    |
+| Website | `W004` | [**Udemy**]()                                                                                                                                                                                                | _Udemy_              |
+| Website | `W005` | [**W3 Schools**](https://www.w3schools.com/python/default.asp)                                                                                                                                               | _W3 Schools_         |
 | Video   | `V001` | [**Harvard CS50’s Introduction to Programming with Python**]() **- Full University Course**                                                                                                                  | _David J. Malan_     |   
 
 ___
