@@ -79,7 +79,7 @@
         - For solutions see Sol_B001.3_Distance_Between_2_Points.py
 
     4. Ask the user to enter three points and find whether they are collinear.
-        - For solutions see Sol_B001.3_If_3_Points_Are_Collinear.py
+        - For solutions see Sol_B001.4_If_3_Points_Are_Collinear.py
 
     5. In the above question, if the points are not collinear then find the type of triangle formed by them (equilateral
        , isosceles or scalene).
