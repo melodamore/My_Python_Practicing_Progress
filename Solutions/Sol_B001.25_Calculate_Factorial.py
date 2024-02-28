@@ -2,12 +2,14 @@
 
 # 1 * 2 * 3 * ... * n
 
-num = int(input('Enter a number:\t'))
-factorial = 1  # initializer
-i = 1  # counter
+# Ask the user to enter a number
+num = int(input('Enter a numbre:\t'))
 
-while i <= num:
-    factorial = factorial * i
-    i = i + 1
+counter = 1
+factorial = 1
 
-print('The factorial of', num, 'is', factorial)
+while counter <= num:
+    factorial = factorial * counter
+    counter = counter + 1
+
+print('The factorial of ' + str(num), 'is ' + str(factorial))

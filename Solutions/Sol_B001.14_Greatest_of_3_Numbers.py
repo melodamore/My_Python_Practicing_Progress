@@ -10,15 +10,21 @@ if entrance == 1:
     print('Enter the third number : ')
     num3 = int(input())
 
-    if num1 > num2 > num3:
-        print('---> The greatest number is:', num1)
-    else:
-        if num2 > num1 > num3:
-            print('---> The greatest number is:', num2)
+    if num1 > num2:
+        if num2 > num3:
+            print('--> The greatest number is:', num1)
         else:
-            if num3 > num2 > num1:
-                print('---> The greatest number is:', num3)
+            if num1 > num3:
+                print('--> The greatest number is:', num1)
             else:
-                print('---> All numbers are equal!')
+                print('--> The greatest number is:', num1)
+
+    elif num2 > num3:
+        print('--> The greatest number is:', num2)
+    else:
+        print('--> The greatest number is:', num3)
+
+    if num1 == num2 == num3:
+        print('--> All numbers are equal!')
 else:
-    print('Exited successfully!')
+    print('Exitted!')

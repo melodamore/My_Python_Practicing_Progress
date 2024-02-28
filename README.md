@@ -1,5 +1,5 @@
 ### [**`ⲘⲈ𝓛ⲞⲆⲀⲘⲞꞄⲈ `**](http://melodamore.blogspot.com)
-##  My Python Programming Practicing Progress - Beginner
+## My Python Programming Practicing Progress - _Beginner Level_
 ######  Daniel Yohannes_ _**@melodamore**_ _everywhere!
 
 ### Learning Sources (_Books, Websites, and Videos_)
@@ -12,42 +12,74 @@
 | Book    | `B004` | [**Python Essential Reference**](https://theswissbay.ch/pdf/Gentoomen%20Library/Programming/Python/Python%20Essential%20Reference%2C%20Fourth%20Edition%20%282009%29.pdf) **- Developer's Library**          | _David M. Beazley_   |
 | Book    | `B005` | [**Think Python**]() **- How to Think Like a Computer Scientist**                                                                                                                                            | _Allen Downey_       |
 | Website | `W001` | [**Python.org**](https://www.python.org) **- Python Documentation**                                                                                                                                          | _Python_             |
-| Website | `W002` | [**Microsoft.com**](https://learn.microsoft.com/en-us/training/browse/?terms=python) **- Introduction to Python**                                                                                            | _Microsoft_          |
+| Website | `W002` | [**Microsoft.com**](https://learn.microsoft.com/en-us/training/browse/?terms=python) **- Python Tutorial**                                                                                                   | _Microsoft_          |
 | Website | `W003` | [**Tutorials Point**](https://www.tutorialspoint.com/python/index.htm)                                                                                                                                       | _Tutorials Point_    |
 | Website | `W004` | [**Udemy**]()                                                                                                                                                                                                | _Udemy_              |
 | Website | `W005` | [**W3 Schools**](https://www.w3schools.com/python/default.asp)                                                                                                                                               | _W3 Schools_         |
 | Video   | `V001` | [**Harvard CS50’s Introduction to Programming with Python**]() **- Full University Course**                                                                                                                  | _David J. Malan_     |   
 
 ___
-
-
-| **Chapters**                                      |
-|---------------------------------------------------|
-| [Python Objects](#Python-Objects)                 |
-| [Conditional Statements](#Conditional-Statements) |
-| [Looping](#Looping)                               |
-
+___
+# `Programming`
+## What is Programming?
+- It is telling a computer what to do
+___
+## Algorithm
+- A detailed description of how to do something
+- A recipe telling you exactly how to perform a task
+- When you program a computer, you are essentially describing an algorithm in a language the computer can understand
+___
+## Pseudocode
+___
+## Expressions
+- An expression is a part of a computer program that represents a value.
+- For example, 2 + 2 is an expression, representing the value 4
+___
+## Variables
+- A variable is a name that represents a value
+- New values may be assigned to variables through assignments such as x = 2
+- An assignment is a kind of statement
+___
+## Statements
+- A statement is an instruction that tells the computer to do something
+- That may involve changing variables (through assignments), printing things to the screen (such as print("Hello, world!")), importing modules, or doing a host of other stuff
+___
+## Functions
+- Functions in Python work just like functions in mathematics
+- They may take some arguments, and they return a result
+___
+## Modules
+- Modules are extensions that can be imported into Python to extend its capabilities
+- For example, several useful mathematical functions are available in the `math` module
+___
+## Data Structures
+- A data structure is a collection of data elements (such as numbers or characters, or even other data structures) that is structured in some way, such as by numbering the elements
+- The most basic data structure in Python is the [**sequence**](#sequences)
+- Each element of a sequence is assigned a number—its position, or index
 ___
 ___
-
 # `Python Objects`
 
-## Basic Data Types
+## _Basic Data Types_
 
 ## Numbers
 - **Integers**
   - Don't have any fractional parts
-
 - **Floats**
   - Have fractional parts
 - **Complexes**
   - Have real and imaginary parts
+  - Has a module `cmath`
+- **Hexadecimals**
+- **Octal**
+- **Binary**
 ___  
 ## Operators Supported in Numbers
 - **Addition** **`+`**
 - **Subtraction**  **`-`**
 - **Multiplication** **`*`**
 - **Division** `/`
+- **Integer Division** `//`
 - **Power** **`**`** 
   - for exponentiation
 - **Modulo** **`%`** 
@@ -74,6 +106,10 @@ ___
 ### Floor
 - The nearest integer `<=` the number
   - [**Example B001.5**](/Examples/Eg_B001.5_Floor.py)
+
+### Square root
+- The square root of a number `sqrt`
+  - [**Example B002**](/Examples/Eg_B002.1_sqrt.py) 
 ___
 ## Fractions
 - From fractions import Fraction
@@ -84,7 +120,17 @@ ___
 ### Strings
 - A predefined object which contains characters
 - Non-mutable (Once defined, cannot be changed)
-
+- Represent text using a scheme known as Unicode
+  - **Long Strings**
+    - Includes several lines
+    - Using triple quotes `''' '''`
+      - [**Example B002.3**](/Examples/Eg_B002.3_Long_Strings.py)
+  - **Raw Strings**
+    - They don’t treat the backslash as a special character at all. 
+    - Every character you put into a raw string stays the way you wrote it.
+    - The last character can't be a backslash \
+    - If you want the last character to be \ , you can add `'\\'` at the end
+      - [**Examples B002.4**](/Examples/Eg_B002.4_Raw_Strings.py)
   - **Index**
     - A Particular location of a string
     - The index of the first location is 0
@@ -106,8 +152,14 @@ ___
        
   - **Slicing**
     - Removing some part of a string
+    - Access ranges of elements
+    - The first index is the number of the first element you want to include (inclusive)
+    - However, the last index is the number of the first element after your slice (exclusive)
       - [**Example B001.12**](/Examples/Eg_B001.12_Slicing.py)
-  
+    - In a regular slice, the step length is one
+    - If the step size is set to a number greater than one, elements will be skipped
+      - [**Example B002.5**](/Examples/Eg_B002.5_Setting_Step_Size_for_Slicing.py)
+
 ### Lists `[]`
 - A collection of objects 
 - The most general sequence provided by the language 
@@ -126,7 +178,28 @@ ___
 - Are extremely useful in operations like swapping 
   - [**Example B001.14**](/Examples/Eg_B001.14_Tuples.py)
 
-### Problems
+
+### The `in` Operator
+- To check whether a value can be found in a sequence,
+- It checks whether something is true and returns a value accordingly: `True` for true and `False` for false.
+  - [**Example B002.6 **](/Examples/Eg_B002.6_The_in_Operator.py)
+
+### Minimum and Maximum
+- `min` returns the smallest element of the sequence
+- `max` returns the largest element of the sequence
+  - [**Example B002.7**](/Examples/Eg_B002.7_Minimum_and_Maximum.py)
+
+___
+
+## Scripting
+- To directly run your program
+- The first line of the program begin with the character sequence `#!` (_pound bang_ or _shebang_) `#!/usr/bin/env python`
+- Before you can run your script, you must make it executable `chmod a+x file_name.py`
+- Now it can run using `file_name.py` or `./file_name.py`
+  - [**Example B002.2**](/Examples/Eg_B002.2_Scripting)
+___
+
+## Problems
 - `Problem #B001.2.1` Write a program to swap two numbers
   - [**Solution**](/Solutions/Sol_B001.1_Swap_Two_Numbers.py)
 
@@ -170,7 +243,25 @@ ___
 
 - `Problem #B001.2.11` In question 10, arrange the above points in order of their x coordinates.
   - [**Solution**](/Solutions/Sol_B001.11_Arrange_4_Points_Based_on_X_Coordinates.py)
+  
 
+- `Problem #B002.2.1` Ask the user  you for a year, a month (as a number from 1 to 12), and a day (1 to 31), and then 
+   prints out the date with the proper month name.
+  - [**Solution**](/Solutions/Sol_B002.1_Print_Out_Date_With_Proper_Month_Name.py)
+
+
+- `Problem #B002.2.2` Prompt the user for a URL and extract the domain
+  - [**Solution**](/Solutions/Sol_B002.2_Extract_the_Domain_From_a_URL.py)
+
+
+- `Problem #B002.2.3` Prompt the user for a sentence and print the sentence in a centered box of correct width
+  - [**Solution**](/Solutions/Sol_B002.3_Print_a_Sentence_In_a_Centered_Box_of_Correct_Width.py)
+
+
+- `Problem #B002.2.4`Write a program that reads in a username and checks the entered PIN code against a database
+  (a list, actually) that contains pairs (more lists) of names and PIN codes. If the name/PIN pair is found in the
+  database, print the string 'Access granted'.
+  - [**Solution**](/Solutions/Sol_B002.4_Check_a_Username_and_Pin_Code.py)
 ___
 ___
 # `Conditional Statements`
@@ -190,7 +281,7 @@ ___
     - An `if` can have any number of if's nested within.
     - The test condition in `if` must result in a True or a False.
 ___
-## The if-elif-else ladder
+## The if-elif-else Ladder
 
 - To be used when there are multiple outcomes and the outcomes decide the action.
   - [**Example**](/Examples/Eg_B001.16_The_if-elif-else_Ladder.py)

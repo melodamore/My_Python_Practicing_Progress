@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+# Double click this program from the file explorer and it should run
+
+name = str(input('What is your name?\t'))
+print('Hello, ' + name + '!')
+input("Press <enter>")

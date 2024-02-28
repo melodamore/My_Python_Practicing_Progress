@@ -7,7 +7,7 @@ the sum obtained is the same as that in the original number.
 print('Enter a 3 digit number : ')
 num = input()
 if (int(num) < 100) | (int(num) > 999):
-    print('Incorrect input')
+    print('Please Enter a 3 digit number!')
 else:
     (a, b, c) = num
     (a, b, c) = (c, b, a)
