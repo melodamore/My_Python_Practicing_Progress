@@ -121,44 +121,73 @@ ___
 - A predefined object which contains characters
 - Non-mutable (Once defined, cannot be changed)
 - Represent text using a scheme known as Unicode
-  - **Long Strings**
-    - Includes several lines
-    - Using triple quotes `''' '''`
-      - [**Example B002.3**](/Examples/Eg_B002.3_Long_Strings.py)
-  - **Raw Strings**
-    - They don’t treat the backslash as a special character at all. 
-    - Every character you put into a raw string stays the way you wrote it.
-    - The last character can't be a backslash \
-    - If you want the last character to be \ , you can add `'\\'` at the end
-      - [**Examples B002.4**](/Examples/Eg_B002.4_Raw_Strings.py)
-  - **Index**
-    - A Particular location of a string
-    - The index of the first location is 0
-      - [**Example B001.7**](/Examples/Eg_B001.7_Indexing.py)
-      
-  - **Negative index**
-    - The character present at the nth position beginning from the end
-      - [**Example B001.8**](/Examples/Eg_B001.8_-ve_Indexing.py)
-      
-  - **Length**
-    - Gives information about how many characters are found in a string
-      - [**Example B001.9**](/Examples/Eg_B001.9_Length.py) 
-      
-  - **Concatenation**
-     - adding strings using the operator `+`
-       - [**Example B001.10**](/Examples/Eg_B001.10_Concatenation(+).py)
-     - multiplying a string using the operator `*`
-       - [**Example B001.11**](/Examples/Eg_B001.11_Concatenation(*).py)
-       
-  - **Slicing**
-    - Removing some part of a string
-    - Access ranges of elements
-    - The first index is the number of the first element you want to include (inclusive)
-    - However, the last index is the number of the first element after your slice (exclusive)
-      - [**Example B001.12**](/Examples/Eg_B001.12_Slicing.py)
-    - In a regular slice, the step length is one
-    - If the step size is set to a number greater than one, elements will be skipped
-      - [**Example B002.5**](/Examples/Eg_B002.5_Setting_Step_Size_for_Slicing.py)
+
+#### Basic Operations of Strings
+- **Long Strings**
+  - Includes several lines
+  - Using triple quotes `''' '''`
+    - [**Example B002.3**](/Examples/Eg_B002.3_Long_Strings.py)
+
+
+- **Raw Strings**
+  - They don’t treat the backslash as a special character at all
+  - Every character you put into a raw string stays the way you wrote it
+  - The last character can't be a backslash \
+  - If you want the last character to be \ , you can add `'\\'` at the end
+    - [**Examples B002.4**](/Examples/Eg_B002.4_Raw_Strings.py)
+
+
+- **Index**
+  - A Particular location of a string
+  - The index of the first location is 0
+    - [**Example B001.7**](/Examples/Eg_B001.7_Indexing.py)
+
+
+- **Negative Index**
+  - The character present at the nth position beginning from the end
+    - [**Example B001.8**](/Examples/Eg_B001.8_-ve_Indexing.py)
+
+
+- **Length**
+  - Gives information about how many characters are found in a string
+    - [**Example B001.9**](/Examples/Eg_B001.9_Length.py) 
+
+
+- **Concatenation** `+`
+  - Adding strings
+    - [**Example B001.10**](/Examples/Eg_B001.10_Concatenation(+).py)
+
+
+- **Concatenation** `*`
+  - Multiplying a string
+    - [**Example B001.11**](/Examples/Eg_B001.11_Concatenation(*).py)
+
+
+- **Slicing**
+  - Removing some part of a string
+  - Access ranges of elements
+  - The first index is the number of the first element you want to include (inclusive)
+  - However, the last index is the number of the first element after your slice (exclusive)
+    - [**Example B001.12**](/Examples/Eg_B001.12_Slicing.py)
+  - In a regular slice, the step length is one
+  - If the step size is set to a number greater than one, more elements will be skipped
+    - [**Example B002.5**](/Examples/Eg_B002.5_Setting_Step_Size_for_Slicing.py)
+
+
+- **Formatting Values**
+  - To the left of the %, you place string(the format string);to the right of it, you place the value you want to format `format % values`
+  - The `%s` parts of the format are called _conversion specifiers_. They mark the places where the values are to be inserted
+  - The `s` means that the value is a string
+  - [**Example B002.21**](/Examples/Eg_B002.21_Formatting_Strings.py)
+  - 
+
+- **Template Strings**
+  - Formatting strings using a syntax similar to UNIX shells
+  - By importing `Template` from `string`
+  - [**Example B002.22**](/Examples/Eg_B002.22_Template_Strings.py)
+#### String Methods
+
+
 
 ### Lists `[]`
 - A collection of objects 
@@ -171,18 +200,84 @@ ___
 - An element of a list can be accessed by indexing 
   - [**Example B001.13**](/Examples/Eg_B001.13_Lists.py)
 
+#### Basic Operations of Lists and methods
+-  **Deleting Elements**
+    - Using the `del` statement
+      - [**Example B002.8**](/Examples/Eg_B002.8_Deleting_Elements.py)
+
+
+- **Assigning to Slices**
+    - Changing several positions at once
+      - [**Example B002.9**](/Examples/Eg_B002.9_Assigning_to_Slices.py))
+
+
+- `Append`
+    - To append an object to the end of a list
+      - [**Example B002.10**](/Examples/Eg_B002.10_Append_an_Objects.py)
+
+
+- `Clear`
+    - Clears the contents of a list
+      - [**Example B002.11**](/Examples/Eg_B002.11_Clear_a_List.py)
+
+
+- `Copy`
+  - Copies a list
+    - [**Example B002.12**](/Examples/Eg_B002.12_Copy_a_list.py)
+
+
+- `Count`
+  - Counts the occurrences of an element in a list
+    - [**Example B002.13**](/Examples/Eg_B002.13_Count_an_Element.py)
+
+
+- `Extend`
+  - Append several values at once
+    - [**Example B002.14**](/Examples/Eg_B002.14_Extend_a_List.py)
+
+
+- `Insert`
+  - To insert an object into a list
+    - [**Example B002.15**](/Examples/Eg_B002.15_Insert_into_a_List.py)
+
+
+- `Pop`
+  - To remove an element(by default the last one) and returns the value
+  - It is the only list method than both modifies the list and returns a value
+    - [**Example B002.16**](/Examples/Eg_B002.16_Pop_Method_in_a_List.py)
+
+
+- `Remove`
+  - To remove the first occurrence of a value
+    - [**Example B002.17**](/Examples/Eg_B002.17_Remove_from_a_List.py)
+
+
+- `Reverse`
+  - To reverse elements in the list
+    - [**Example B002.18**](/Examples/Eg_B002.18_Reverse_Elements_in_a_List.py)
+
+
+- `Sort` 
+  - To sort lists in place
+  - Changes the original list so its elements are in sorted order
+    - [**Example B002.18**](/Examples/Eg_B002.19_Sort_Elements_in_a_List.py)
+
+
+
 ### Tuples `()`
 - Contains elements which can be treated individually or as a group 
 - The elements of a tuple can be accessed by assigning it to a tuple 
 - A tuple may also contain heterogeneous elements 
 - Are extremely useful in operations like swapping 
+- You have to include a comma, even though there is only one value 
   - [**Example B001.14**](/Examples/Eg_B001.14_Tuples.py)
+  - [**Example B002.20**](/Examples/Eg_B002.20_Tuples.py)
 
 
 ### The `in` Operator
 - To check whether a value can be found in a sequence,
 - It checks whether something is true and returns a value accordingly: `True` for true and `False` for false.
-  - [**Example B002.6 **](/Examples/Eg_B002.6_The_in_Operator.py)
+  - [**Example B002.6**](/Examples/Eg_B002.6_The_in_Operator.py)
 
 ### Minimum and Maximum
 - `min` returns the smallest element of the sequence
