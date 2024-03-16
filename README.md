@@ -3,7 +3,7 @@
 ######  Daniel Yohannes_ _**@melodamore**_ _everywhere!
 
 ### Learning Sources (_Books, Websites, and Videos_)
-
+B
 | Type    | Code   | Title                                                                                                                                                                                                        | Autor                |
 |---------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|
 | Book    | `B001` | [**Python Basics**](https://terrorgum.com/tfox/books/pythonbasics_aselfteachingintroduction.pdf) **- A self-teaching Introduction**                                                                          | _H.Bhasin_           |
@@ -11,7 +11,7 @@
 | Book    | `B003` | [**Fundamentals of Python**](https://vdoc.pub/download/fundamentals-of-python-from-first-programs-through-data-structures-41oa8209hfm0) **- From First Programs Through Data Structures**                    | _Kenneth A. Lambert_ |
 | Book    | `B004` | [**Python Essential Reference**](https://theswissbay.ch/pdf/Gentoomen%20Library/Programming/Python/Python%20Essential%20Reference%2C%20Fourth%20Edition%20%282009%29.pdf) **- Developer's Library**          | _David M. Beazley_   |
 | Book    | `B005` | [**Think Python**]() **- How to Think Like a Computer Scientist**                                                                                                                                            | _Allen Downey_       |
-| Website | `W001` | [**Python.org**](https://www.python.org) **- Python Documentation**                                                                                                                                          | _Python_             |
+| Website | `W001` | [**Python.org**](https://docs.python.org/3/tutorial/index.html) **- Python Documentation**                                                                                                                                          | _Python_             |
 | Website | `W002` | [**Microsoft.com**](https://learn.microsoft.com/en-us/training/browse/?terms=python) **- Python Tutorial**                                                                                                   | _Microsoft_          |
 | Website | `W003` | [**Tutorials Point**](https://www.tutorialspoint.com/python/index.htm)                                                                                                                                       | _Tutorials Point_    |
 | Website | `W004` | [**Udemy**]()                                                                                                                                                                                                | _Udemy_              |
